@@ -14,7 +14,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize creative and out-side the box thinking",
+      title: "I prioritize creative and out-of-the-box thinking",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -210,7 +210,7 @@ export const navItems = [
     {
       id: 4,
       title: "Frontend Developer Contract",
-      desc: "Transformed a completely static HTML, CSS application into an interactive user interface using animations, transitions, and carousels with Next.js, improving user interaction and satisfaction.",
+      desc: "Transformed a completely static HTML, CSS application into an interactive user interface using animations, transitions, and carousels with Next.js. Improving user interaction and satisfaction.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp4.svg",
     },

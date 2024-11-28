@@ -6,7 +6,13 @@ import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+import { Metadata } from "next";
 // import { FaHome } from "react-icons/fa";
+
+export const metadata: Metadata = {
+  title: "James Rhoe",
+  description: "Take a look at some of my recent projects and work experience!"
+}
 
 export default function Home() {
   return (
