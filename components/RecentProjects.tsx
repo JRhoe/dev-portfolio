@@ -14,7 +14,8 @@ const RecentProjects = () => {
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
                 {projects.map(({id, title,des, img,iconLists,link}) => (
                     <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[90vw]'>
-                        <PinContainer title={link} href={link}>
+                        {/* <PinContainer title={link} href={link}> */}
+                        <div className='border-[1px] border-white/10 rounded-2xl p-4 lg:h-[650px] mt-[32px]'>
                             <div className={`relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[350px] mb-10 ${styles.imgContainer}`}>
                                 <div className='relative w-full h-full overflow-hidden rounded-3xl bg-[#13162d]'>
                                     <img src='/bg.png' alt='bg-img'/>
@@ -40,14 +41,15 @@ const RecentProjects = () => {
                                     ))}
                                 </div>
 
-                                <div className='flex justify-center items-center'>
-                                    <p className='flex lg:text-xl md:text-xs text-sm text-main'>Check Live Site</p>
+                                <a href={link} target="_blank" className='flex justify-center items-center'>
+                                    <p className='flex lg:text-xl md:text-xs text-sm text-white'>Check Live Site</p>
                                     <FaLocationArrow className='ms-3 text-main'/>
                                     {/* <FaLocationArrow className='ms-3' color='#CBACF9'/> */}
-                                </div>
+                                </a>
 
                             </div>
-                        </PinContainer>
+                        </div>
+                        {/* </PinContainer> */}
                     </div>
                 ))}
             </div>
