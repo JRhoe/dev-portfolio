@@ -37,12 +37,12 @@ const Hero = () => {
                     max-w-80'></h2>
 
                     <TextGenerateEffect 
-                    className=' text-center text-[40px] md:text-5xl lg:text-6xl'
+                    className=' text-center text-[24px] sm:text-4xl md:text-5xl lg:text-5xl 2xl:text-6xl'
                     words='Transforming Concepts into Seemless Experiences'/>
 
                     <p className='text-center md:tracking-wider 
                     mb-4 text-sm md:text-lg lg:text-2xl'>Hi, I&apos;m James, a
-                    <FlipWords words={words} duration={3000}/>Developer based in San Jose, CA
+                    <FlipWords words={words} duration={3000} className={'text-main'}/>Developer based in San Jose, CA
                     </p>
 
                     <a href='#projects' className='mb-8'>

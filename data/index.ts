@@ -98,7 +98,7 @@ export const navItems = [
       title: "Zoom Clone",
       des: "Clone of a zoom style website. Supports account creation, video meetings, multiple participants, meeting scheduling. Give it a try! (Personal Project)",
       img: ZoomCLone,
-      iconLists: ["html5-brands-solid.svg","css3-alt-brands-solid.svg","/next.svg","/tail.svg", "/ts.svg","/stream.svg",],
+      iconLists: ["html5-brands-solid.svg","css3-alt-brands-solid.svg","/next.svg","/tail.svg", "/ts.svg",],
       link: "https://zoom-clone-green-six.vercel.app/",
     },
     {
@@ -106,7 +106,7 @@ export const navItems = [
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. (Personal Project)",
       img: appleClone,
-      iconLists: ["html5-brands-solid.svg","css3-alt-brands-solid.svg","/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://apple-clone-a332a4b85e7d.herokuapp.com/",
     },
     {
