@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <div className="h-[100vh] w-[100vw] fixed bg-black">
+      <div className="h-[100vh] lg:w-[100vw] w-[1920px] fixed bg-black">
         <BackgroundBeams/>
       </div>
       <main className="relative bg-transparent flex
