@@ -3,7 +3,6 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import SocialIcons from "./ui/SocialIcons";
-import { BackgroundBeams } from "./ui/background-beams";
 import { FlipWords } from "./ui/flip-words";
 
 const Hero = () => {
