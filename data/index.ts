@@ -79,19 +79,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Guardian Saga Support",
-      des: "Commercial application for Guardian Saga Support. Fully responsive. Reusable components to promote scalability. Features: animations, carousels, dropdowns, animated timeline, application submission.",
-      img: GuardianSaga,
-      iconLists: ["html5-brands-solid.svg","css3-alt-brands-solid.svg","js-brands-solid.svg","/next.svg","/gsap.svg",],
-      link: "https://www.guardiansaga.support/",
-    },
-    {
-      id: 2,
       title: "The Praxeum",
       des: "Commercial application for The Praxeum. Fully responsive. Collaborated with writers to ensure meaningful content. Continued development fulfilling feature requests. Features: user sign-ups, appointment scheduling, popups, announcement banners.",
       img: Praxeum,
       iconLists: ["html5-brands-solid.svg","css3-alt-brands-solid.svg","js-brands-solid.svg","wordpress-brands-solid.svg"],
       link: "https://thepraxeum.com/",
+    },
+    {
+      id: 2,
+      title: "Guardian Saga Support",
+      des: "Commercial application for Guardian Saga Support. Fully responsive. Reusable components to promote scalability. Features: animations, carousels, dropdowns, animated timeline, application submission.",
+      img: GuardianSaga,
+      iconLists: ["html5-brands-solid.svg","css3-alt-brands-solid.svg","js-brands-solid.svg","/next.svg","/gsap.svg",],
+      link: "https://www.guardiansaga.support/",
     },
     {
       id: 3,

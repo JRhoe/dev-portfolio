@@ -11,29 +11,30 @@ import { Metadata } from "next";
 // import { FaHome } from "react-icons/fa";
 
 export const metadata: Metadata = {
-  title: "James Rhoe",
-  description: "Take a look at some of my recent projects and work experience!"
-}
+	title: "James Rhoe",
+	description: "Take a look at some of my recent projects and work experience!",
+};
 
 export default function Home() {
-  return (
-    <>
-      <div className="h-[100vh] lg:w-[100vw] w-[1920px] fixed bg-black">
-        <BackgroundBeams/>
-      </div>
-      <main className="relative bg-transparent flex
+	return (
+		<>
+			<div className="h-[100vh] lg:w-[100vw] w-[1920px] fixed bg-black">
+				<BackgroundBeams />
+			</div>
+			<main
+				className="relative bg-transparent flex
       justify-center items-center flex-col mx-auto
       sm:px-10 px-5 overflow-clip">
-        <div className="max-w-7xl w-full">
-          <FloatingNav navItems={navItems}/>
-          <Hero/>
-          <Grid/>
-          <RecentProjects/>
-          {/* <Clients/> */}
-          <Experience/>
-          <Footer/>
-        </div>
-      </main>
-    </>
-  );
+				<div className="max-w-7xl w-full">
+					<FloatingNav navItems={navItems} />
+					<Hero />
+					<Grid />
+					<RecentProjects />
+					{/* <Clients/> */}
+					<Experience />
+					<Footer />
+				</div>
+			</main>
+		</>
+	);
 }
