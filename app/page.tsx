@@ -1,4 +1,3 @@
-// import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
@@ -8,7 +7,6 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import { Metadata } from "next";
-// import { FaHome } from "react-icons/fa";
 
 export const metadata: Metadata = {
 	title: "James Rhoe",
@@ -30,7 +28,6 @@ export default function Home() {
 					<Hero />
 					<Grid />
 					<RecentProjects />
-					{/* <Clients/> */}
 					<Experience />
 					<Footer />
 				</div>

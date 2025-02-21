@@ -14,7 +14,6 @@ const RecentProjects = () => {
 					<div
 						key={id}
 						className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[90vw]">
-						{/* <PinContainer title={link} href={link}> */}
 						<div className="border-[1px] border-white/10 rounded-2xl p-4 lg:h-[650px] mt-[32px]">
 							<div
 								className={`relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[350px] mb-10 ${styles.imgContainer}`}>
@@ -53,11 +52,9 @@ const RecentProjects = () => {
 										Check Live Site
 									</p>
 									<FaLocationArrow className="ms-3 text-main" />
-									{/* <FaLocationArrow className='ms-3' color='#CBACF9'/> */}
 								</a>
 							</div>
 						</div>
-						{/* </PinContainer> */}
 					</div>
 				))}
 			</div>

@@ -5,11 +5,9 @@ import { IoCopyOutline } from "react-icons/io5";
 import { cn } from "@/lib/utils";
 
 import { BackgroundGradientAnimation } from "./Gradientbg";
-import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { socialMedia } from "@/data";
 import { FaLocationArrow } from "react-icons/fa";
-import { Meteors } from "./Meteors";
 
 export const BentoGrid = ({
   className,
@@ -164,9 +162,6 @@ export const BentoGridItem = ({
                 otherClasses="!bg-[#161A31]"
               />
             </div>
-          )}
-          {id === 2 && (
-            <Meteors number={20} />
           )}
         </div>
       </div>
